@@ -3,6 +3,7 @@ title: CruzHacks 2025
 description: Award-winning competitive robotics platform.
 images: 
     - /images/shtr.png
+    -  /images/decode-2.png
 year: "2025"
 ---
 

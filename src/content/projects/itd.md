@@ -3,6 +3,7 @@ title: FTC ITD Robot
 description: Award-winning competitive robotics platform.
 images: 
     - /images/final clipping entire assembly.png
+    -  /images/decode-2.png
 year: "2025"
 ---
 
