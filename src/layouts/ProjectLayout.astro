@@ -1,0 +1,31 @@
+---
+import Navbar from "../components/Navbar.astro";
+const { title } = Astro.props;
+---
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>{title}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="/src/styles/global.css" />
+  </head>
+
+  <body>
+    <Navbar />
+
+    <main class="page">
+      <slot />
+    </main>
+  </body>
+</html>
+
+<style>
+/* THIS is the missing consistency layer */
+.page {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 60px 24px;
+  font-family: system-ui, -apple-system, sans-serif;
+}
+</style>

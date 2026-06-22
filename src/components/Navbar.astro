@@ -1,0 +1,54 @@
+---
+---
+
+<nav class="nav">
+  <a class="left" href="/">Max DeWeese</a>
+
+  <div class="right">
+    <a href="mailto:maximiliandeweese@gmail.com">Email</a>
+    <a href="https://www.linkedin.com/in/max-deweese/" target="_blank">LinkedIn</a>
+    <a href="https://github.com/L0ADIN9/" target="_blank">GitHub</a>
+  </div>
+</nav>
+
+<style>
+.nav {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 18px 24px;
+  background: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid #eee;
+
+  font-family: system-ui, -apple-system, sans-serif;
+}
+
+.left {
+  font-weight: 600;
+  text-decoration: none;
+  color: #111;
+  font-size: 30px;
+}
+
+.right {
+  display: flex;
+  gap: 18px;
+}
+
+.right a {
+  text-decoration: none;
+  color: #555;
+  font-size: 24px;
+  transition: color 0.2s ease;
+}
+
+.right a:hover {
+  color: #000;
+}
+</style>

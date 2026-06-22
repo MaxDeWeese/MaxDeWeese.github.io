@@ -1,0 +1,32 @@
+/* RESET */
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+/* GLOBAL TYPOGRAPHY BASE */
+body {
+  font-family: system-ui, -apple-system, sans-serif;
+  color: #111;
+  background: #fafafa;
+}
+
+/* FIX HEADING SHIFTING */
+h1, h2, h3, p {
+  margin-top: 0;
+}
+
+h1 {
+  font-size: 30px;
+}
+h2 {
+  font-size: 24px;
+}
+
+/* CONSISTENT PAGE WIDTH SYSTEM */
+.page {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 60px 24px;
+}
+
