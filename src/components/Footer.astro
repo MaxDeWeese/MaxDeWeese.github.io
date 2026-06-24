@@ -1,0 +1,76 @@
+---
+import { Icon } from "astro-icon/components";
+
+---
+
+<footer class="footer">
+  <div class="social-links">
+    <a
+      href="https://github.com/MaxDeWeese"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      <Icon name="mdi:github" size={24} />
+      <span>GitHub</span>
+    </a>
+
+    <a
+      href="https://www.linkedin.com/in/max-deweese"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      <Icon name="mdi:linkedin" size={24} />
+      <span>LinkedIn</span>
+    </a>
+
+    <a href="mailto:maximiliandeweese@gmail.com">
+      <Icon name="mdi:email-outline" size={24} />
+      <span>Email</span>
+    </a>
+  </div>
+
+  <p class="copyright">
+    &copy; {new Date().getFullYear()} Max DeWeese
+  </p>
+</footer>
+
+<style>
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  gap: 24px;
+
+  padding: 32px 24px;
+  border-top: 1px solid #ddd;
+
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.social-links {
+  display: flex;
+  gap: 20px;
+}
+
+.social-links a {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+
+  text-decoration: none;
+  color: #535353;
+  font-weight: 600;
+}
+
+.social-links a:hover {
+  color: #000;
+}
+
+.copyright {
+  margin: 0;
+  color: #666;
+  font-size: 14px;
+}
+</style>

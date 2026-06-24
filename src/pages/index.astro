@@ -1,9 +1,13 @@
 ---
 import { getCollection } from "astro:content";
 import Navbar from "../components/Navbar.astro";
+import Footer from "../components/Footer.astro";
 
 
 const projects = await getCollection("projects");
+projects.sort(
+  (a, b) => Number(b.data.year) - Number(a.data.year)
+ );
 ---
 
 <html lang="en">
@@ -43,6 +47,7 @@ const projects = await getCollection("projects");
       </section>
 
     </main>
+    <Footer />
   </body>
 </html>
 

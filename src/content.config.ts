@@ -11,6 +11,19 @@ const projects = defineCollection({
     description: z.string(),
     images: z.array(z.string()),
     year: z.string(),
+    gallery: z.array(
+      z.union([
+        z.object({
+          type: z.literal("image"),
+          src: z.string(),
+          caption: z.string().optional(),
+       }),
+      z.object({
+        type: z.literal("youtube"),
+        id: z.string(),
+   }),
+  ])
+),
   }),
 });
 

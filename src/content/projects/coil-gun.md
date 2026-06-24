@@ -1,15 +1,19 @@
 ---
 title: Coil Gun
 description: Desc for
-images: 
+gallery: 
+    - type: image
+      src: /images/coil-gun.png
+    - type: image
+      src: /images/decode-2.png
+images:
     - /images/coil-gun.png
-    - /images/decode-2.png
-year: "2025"
+year: "1"
 ---
 
-# FTC Competition Robot
+# Coil Gun!!!1
 
-This robot competed in FTC Into the Deep.
+Is a coil gun solenoid
 
 ## Contributions
 

@@ -6,21 +6,40 @@ html, body {
 
 /* GLOBAL TYPOGRAPHY BASE */
 body {
-  font-family: system-ui, -apple-system, sans-serif;
+  font-family: "Inter", sans-serif;
   color: #111;
+  line-height: 1.6;
+  
   background: rgba(242, 242, 242, 1);
 }
 
 /* FIX HEADING SHIFTING */
 h1, h2, h3, p {
   margin-top: 0;
+  margin-top: 0;
 }
 
+
 h1 {
-  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: -0.03em;
+  font-size: 36px;
+  margin-top: 0px;
 }
 h2 {
+  font-weight: 600;
+  letter-spacing: -0.02em;
   font-size: 24px;
+  margin-bottom: 0px;
+}
+h2 + ul {
+  margin-top: 0;
+}
+h1 + ul {
+  margin-top: 0;
+}
+h3 + ul {
+  margin-top: 0;
 }
 
 /* CONSISTENT PAGE WIDTH SYSTEM */
