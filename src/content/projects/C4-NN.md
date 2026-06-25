@@ -1,6 +1,6 @@
 ---
-title: FTC Decode Robot
-description: Award-winning competitive robotics platform.
+title: MLP Connect 4 Model
+description: Developed a multilayer perceptron (MLP) model in Java to play Connect 4.
 gallery: 
     - type: image
       src: /images/ftc-cover.png
@@ -12,23 +12,58 @@ gallery:
       caption: practice match
 images:
     - /images/decode-2.png
-year: "2"
+year: "96"
 ---
 
-# FTC Competition Robot
+## Overview
 
-This robot competed in FTC Into the Deep.
+problem statement, goals, review, tech used. 
 
-## Contributions
+## Requirements
 
-- Systems architecture
-- Mechanical design
-- CNC manufacturing
-- Control systems
+- do this in the match
+- do this in the match
+- ep copy
+- eng req for building and stf
 
-## Problem
+## Dataset
+- Data source
+- Data preprocessing
+- Feature engineering
+- Dataset size
 
-- Systems architecture
-- Mechanical design
-- CNC manufacturing
-- Control systems
+## Model Architecture
+### Network Design
+- MLP / CNN / U-Net
+- Layer structure
+- Activation functions
+- Hyperparameters
+
+### Training 
+- Loss function
+- Optimizer
+- Training strategy
+- Validation process
+
+## Post Proscessing
+- TensorFlow / Keras
+- Data pipeline
+- Inference pipeline
+- Experiment tracking
+
+## Implementation 
+- TensorFlow / Keras
+- Data pipeline
+- Inference pipeline
+- Experiment tracking
+
+## Results
+- Accuracy
+- Loss curves
+- Example outputs
+- Model limitations
+
+## Future Improvements
+- Better architectures
+- Larger datasets
+- Additional features

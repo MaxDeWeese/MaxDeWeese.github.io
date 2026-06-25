@@ -1,34 +1,69 @@
 ---
-title: Pixel Art Interpolation Nueral Network
-description: Award-winning competitive robotics platform.
+title: Neural Network Based Pixel Art Interpolation
+description: U-Net encoder-decoder architecture for pixel art frame interpolation with Tensorflow.
 gallery: 
     - type: image
-      src: /images/ftc-cover.png
-      caption: intake mechanism
+      src: /images/PAG-exp.png
+      caption: Model input and output demonstration
     - type: image
-      src: /images/decode-2.png
-    - type: youtube
-      id: RTulXf2DZi8    
-      caption: practice match
+      src: /images/PAG-model.png
+    - type: image
+      src: /images/PAG-train.png
+      caption: Training the U-Net
+    - type: image
+      src: /images/PAG-graph.png
+      caption: Training loss at the end of every epoch
+    - type: image
+      src: /images/PAG-postproscess.png
+      caption: Post Processing and Blur Reduction
 images:
-    - /images/decode-2.png
-year: "2"
+    - /images/PAG-exp.png
+year: "99"
 ---
 
-## FTC Competition Robot
-This robot competed in FTC Into the Deep.
+## Overview
 
-## Contributions
-- Systems architecture
-- Mechanical design
-- CNC manufacturing
-- Control systems
+problem statement, goals, review, tech used. 
 
-## Problem
-- Systems architecture
-- Mechanical design
-- CNC manufacturing
-- Control systems
+## Requirements
 
-## Constraints
-yap tap dap
+- do this in the match
+- do this in the match
+- ep copy
+- eng req for building and stf
+
+## Dataset
+- Data source
+- Data preprocessing
+- Feature engineering
+- Dataset size
+
+## Model Architecture
+### Network Design
+- MLP / CNN / U-Net
+- Layer structure
+- Activation functions
+- Hyperparameters
+
+### Training 
+- Loss function
+- Optimizer
+- Training strategy
+- Validation process
+
+## Post Proscessing
+- TensorFlow / Keras
+- Data pipeline
+- Inference pipeline
+- Experiment tracking
+
+## Results
+- Accuracy
+- Loss curves
+- Example outputs
+- Model limitations
+
+## Future Improvements
+- Better architectures
+- Larger datasets
+- Additional features

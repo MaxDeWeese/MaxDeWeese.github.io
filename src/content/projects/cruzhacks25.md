@@ -1,6 +1,6 @@
 ---
-title: FTC Decode Robot
-description: Award-winning competitive robotics platform.
+title: Sustain The Earth | CruzHacks 2025
+description: Tile based strategy game for Cruzhacks 2025
 gallery: 
     - type: image
       src: /images/ftc-cover.png
@@ -12,23 +12,39 @@ gallery:
       caption: practice match
 images:
     - /images/decode-2.png
-year: "2"
+year: "97"
 ---
 
-# FTC Competition Robot
+## Overview
 
-This robot competed in FTC Into the Deep.
+problem statement, why make, goals, review, tech used. 
 
-## Contributions
+## Requirements
 
-- Systems architecture
-- Mechanical design
-- CNC manufacturing
-- Control systems
+- do this in the app
+- do this in the app
+- slides copy
+- eng req for building and stf
 
-## Problem
+## Features
+### Feature 1
 
-- Systems architecture
-- Mechanical design
-- CNC manufacturing
-- Control systems
+ - what it does
+ - how I implemented it
+ 
+### Feature 2
+
+ - what it does
+ - how I implemented it
+
+## System Architecture
+### Frontend
+- UI framework
+- Screens
+- Navigation
+
+### Backend
+- APIs
+- Authentication
+- Data flow
+
