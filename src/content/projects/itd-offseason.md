@@ -19,76 +19,49 @@ gallery:
       caption: Overview of the OTOS odometry system
 images:
     - /images/itdO-real1.jpg
-year: "95"
+year: "97"
 ---
 
 ## Overview
 
-Competition desc, bot performance, review, tech used. 
+FTC INTO THE DEEP requires bots collect samples (small red and yellow bricks) from a central structure, score them into elevated baskets, and hook onto scoring chambers. This robot was designed to compete in the INTO THE DEEP offseason at the International Lobster Cup; additionally, a primary goal was to test out the reliability of a pivoting telescoping arm in a game where horizontal extension is necessity. The robot features a custom triple-layer telescoping slider, claw end effector, optical odometry localization, and a custom gear-driven drivetrain.
+
+
+Tech used:
+- CAD (Onshape, Fusion 360), DFM/DFA, GD&T, FEA
+- CNC Machining, 3D Printing, Electronics Assembly
+- Java, Sensor Fusion, PID Control
 
 ## Requirements
 
-- do this in the match
-- do this in the match
-- ep copy
-- eng req for building and stf
+- Score game elements in the High Chamber and Basket from multiple orientations.
+- Collect and transfer samples from the Submersible rapidly and consistently.
+- Achieve a reliable autonomous routine with accurate localization.
+- Maintain mechanical reliability, serviceability, and modularity 
+- Minimize weight and actuator count without sacrificing functionality.
 
-## Mechanical Overview 
+## Mechanical & Control Overview 
 
-Quick review of the bot. 1 sentance max!
+### Triple-Layer Telescoping Slider 
 
-### Mechanism 
+- Custom triple-stage telescoping architecture maximizes extension while minimizing packaging volume
+- Provides vertical and horizontal reach to all scoring and collection locations
+- Full extension achieved in under 1.5 seconds
+- Frictionless rack-and-pinion drive converts motor rotation into linear motion
 
-- needs
-- iteration 1 and desc
-- iteration 2 and desc
-- final iteration and desc
+### Deposit Claw
 
-### Mechanism 
+- Designed to reliably acquire and score specimens from any orientation.
+- Dual-bearing-supported servo architecture eliminated spline loading issues and improved durability.
+- Compact geometry enabled seamless integration with the telescoping arm.
+- Open-source design adopted by 34 FTC teams.
 
-- needs
-- iteration 1 and desc
-- iteration 2 and desc
-- final iteration and desc
+### Localization & Pathing
 
-### Mechanism 
+A combination of optical odometry, trajectory generation, and closed-loop control achieves consistent autonomous performance.
 
-- needs
-- iteration 1 and desc
-- iteration 2 and desc
-- final iteration and desc
+- OTOS optical odometry provides field localization with less than 1 inch of error after a full autonomous routine.
+- Pedro Pathing generates smooth trajectories and reliable autonomous scoring paths.
+- PID and feedforward control loops regulate slide and mechanism motion.
+- Enabled a successful 5+0 autonomous routine in competition.
 
-### Mechanism 
-
-- needs
-- iteration 1 and desc
-- iteration 2 and desc
-- final iteration and desc
-
-## Control Overview 
-
-Quick review of the bot. 1 sentance max!
-
-### Software aspect  
-
-- needs
-- iteration 1 and desc
-- final iteration and desc
-
-### Software aspect  
-
-- needs
-- iteration 1 and desc
-- final iteration and desc
-
-## Testing & Validation
-- Failure modes
-- Performance testing
-- Design revisions
-
-## Competition Performance
-- Tournament results
-- Awards
-- Key match statistics
-- What worked well
-- Future improvements

@@ -2,45 +2,24 @@
 title: Solenoid-Based Electromagnetic Launcher
 description: Designed and built a solenoid-based electromagnetic launcher for AP Physics.
 gallery: 
+    - type: youtube
+      id: n3RdABj-QVE   
+      caption: practice solo match
     - type: image
-      src: /images/coil-gun.png
+      src: /images/CG-sol.png
+      caption: Final solenoid  
     - type: image
-      src: /images/decode-2.png
+      src: /images/CG-circuit.png
+      caption: Circuit diagram
 images:
-    - /images/coil-gun.png
-year: "1"
+    - /images/CG-sol.png
+year: "94"
 ---
 
 ## Overview
 
-Class project desc, review, tech used. 
+A capacitor-discharge coil gun designed to accelerate nails using a high-current solenoid. The system applied electromagnetic field theory, inductance calculations, and an RC/LC circuit
 
-## Requirements
-
-- do this in the match
-- do this in the match
-- ep copy
-- eng req for building and stf
-
-## Mechanical Overview 
-
-Quick review of the stuff. 1 sentance max!
-
-### Solenoid Launcher
-
-- needs
-- iteration 1 and desc
-- iteration 2 and desc
-- final iteration and desc
-
-### Charging Setup 
-
-- needs
-- iteration 1 and desc
-- iteration 2 and desc
-- final iteration and desc
-
-## Testing & Validation
-- Failure modes
-- Performance testing
-- Design revisions
+- Utilized a custom soldered multi-layer 20 AWG enameled copper solenoid to maximize turn density and magnetic field strength while preventing inter-turn short circuits.
+- Calculated coil inductance (~1.3 mH) and modeled RC/LC discharge behavior to verify that peak current was achieved before capacitor depletion.
+- Developed a dedicated capacitor charging circuit with current limiting to safely charge the 4mf capacitor from a 38V battery source.

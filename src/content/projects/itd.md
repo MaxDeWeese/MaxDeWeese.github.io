@@ -24,12 +24,6 @@ gallery:
       src: /images/itd-chasis-below.png
       caption: Render of the chasis
     - type: image
-      src: /images/itd-pto.png
-      caption: Render of the PTO(Power Take-Off)
-    - type: image
-      src: /images/itd-clipper.png
-      caption: Render of the clip storage and attachment mechanism
-    - type: image
       src: /images/itd-otos.png
       caption: Overview of the OTOS odometry system
 images:
@@ -39,71 +33,61 @@ year: "98"
 
 ## Overview
 
-Competition desc, bot performance, review, tech used. 
+FTC INTO THE DEEP requires bots collect samples (small red and yellow bricks) from a central structure, score them into elevated baskets, and hook onto scoring chambers. The robot features a differential deposit arm, vertical telescoping deposit slides, motorized horizontal extension, active intake, optical odometry localization, and a custom belt-driven drivetrain.
+
+Tech used:
+- CAD (Onshape, Fusion 360), DFM/DFA, GD&T, FEA
+- CNC Machining, 3D Printing, Electronics Assembly
+- Java, Sensor Fusion, PID Control
 
 ## Requirements
 
-- do this in the match
-- do this in the match
-- ep copy
-- eng req for building and stf
+- Score game elements in the High Chamber and Basket from multiple orientations.
+- Collect and transfer samples from the Submersible rapidly and consistently.
+- Achieve a reliable autonomous routine with accurate localization.
+- Maintain mechanical reliability, serviceability, and modularity 
+- Minimize weight and actuator count without sacrificing functionality.
 
 ## Mechanical Overview 
 
-Quick review of the bot. 1 sentance max!
+### Drivetrain & Chasis 
 
-### Mechanism 
+A compact belt-driven drivetrain was designed to maximize maneuverability while efficiently packaging multiple scoring mechanisms within the robot footprint.
 
-- needs
-- iteration 1 and desc
-- iteration 2 and desc
-- final iteration and desc
+- 12.5in x 12.5in chassis optimized for movement around the field and weight mitigation.
+- Belt-driven holonomic mechanum drivetrain.
 
-### Mechanism 
+### Differential Deposit Arm & Vertical Slides
 
-- needs
-- iteration 1 and desc
-- iteration 2 and desc
-- final iteration and desc
+A custom reverse differential arm enables independent wrist and pivot control while minimizing actuator count, weight, and packaging constraints.
 
-### Mechanism 
+- Reverse differential controls both arm and wrist motion using only two servos.
+- Constructed from polycarbonate and 3D-printed components to reduce moving mass.
+- Dual 435 RPM motor-driven slides extend over 45 inches vertically in approximately one second.
 
-- needs
-- iteration 1 and desc
-- iteration 2 and desc
-- final iteration and desc
+### Active Intake & Horizontal Extension 
 
-### Mechanism 
+Intake and extension system was designed to rapidly reach and collect samples from deep within the central structure and automate the transfer process.
 
-- needs
-- iteration 1 and desc
-- iteration 2 and desc
-- final iteration and desc
+- Linkage-driven horizontal extension which reaches full deployment in approximately 0.6 seconds.
+- Roller&flap-based active intake improved acquisition speed and consistency compared to claw-based solutions.
+- Color sensor automatically detects collected samples and initiates intake retraction.
+
 
 ## Control Overview 
 
-Quick review of the bot. 1 sentance max!
+### Localization & Pathing
 
-### Software aspect  
+A combination of optical odometry, trajectory generation, and closed-loop control achieves consistent autonomous performance.
 
-- needs
-- iteration 1 and desc
-- final iteration and desc
-
-### Software aspect  
-
-- needs
-- iteration 1 and desc
-- final iteration and desc
-
-## Testing & Validation
-- Failure modes
-- Performance testing
-- Design revisions
+- OTOS optical odometry provides field localization with less than 1 inch of error after a full autonomous routine.
+- Pedro Pathing generates smooth trajectories and reliable autonomous scoring paths.
+- PID and feedforward control loops regulate slide and mechanism motion.
+- Enabled a successful 4+0 autonomous routine in competition.
 
 ## Competition Performance
-- Tournament results
-- Awards
-- Key match statistics
-- What worked well
-- Future improvements
+### Saratoga Qualifying Tournament
+- Control Award (1st of 25 teams)
+### Folsom Qualifying Tournament
+- Inspire Award 3rd Place (3rd of 25 teams)
+- Qualified for the Northern California Championship

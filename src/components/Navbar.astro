@@ -11,6 +11,10 @@ import { Icon } from "astro-icon/components";
     <Icon name="mdi:github" size={24} />
     <span>GitHub</span>
   </a>
+  <a href="https://loadin9.itch.io/" target="_blank" rel="noopener noreferrer">
+    <Icon name="simple-icons:itchdotio" size={20} />
+    <span>Itch.io</span>
+  </a>
 
   <a href="https://www.linkedin.com/in/max-deweese" target="_blank">
     <Icon name="mdi:linkedin" size={24} />
@@ -65,7 +69,7 @@ import { Icon } from "astro-icon/components";
   gap: 3px;              /* spacing between icon and text */
 
   text-decoration: none;
-  color: #535353;
+  color: #555555;
   font-size: 20px;
   font-weight: 600;
   letter-spacing: -0.02em;
@@ -76,5 +80,18 @@ import { Icon } from "astro-icon/components";
 
 .right a:hover {
   color: #000;
+}
+@media (max-width: 768px) {
+  .right a span {
+    display: none;
+  }
+
+  .right {
+    gap: 12px;
+  }
+
+  .right a {
+    gap: 0;
+  }
 }
 </style>
