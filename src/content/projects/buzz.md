@@ -1,5 +1,5 @@
 ---
-title: Buzzgit Buddy
+title: BuzzBuddy
 description: An iOS app using behavioral testing, mobile sensors, and machine learning to estimate impairment and promote safer decisions.
 gallery: 
     - type: image
