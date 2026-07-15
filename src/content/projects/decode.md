@@ -4,7 +4,7 @@ description: Award-winning FTC competition robot.
 gallery: 
     - type: image
       src: /images/decode-bot-real.png
-      caption: Picture of the robot infront of it's poster
+      caption: Picture of the robot infront of its poster
     - type: youtube
       id: RTulXf2DZi8    
       caption: practice solo match

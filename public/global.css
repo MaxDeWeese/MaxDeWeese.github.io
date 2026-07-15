@@ -6,8 +6,7 @@ html, body {
 
 /* GLOBAL TYPOGRAPHY BASE */
 body {
-  font-family: "Inter", sans-serif;
-  color: #111;
+  font-family: "Avenir Next", "Avenir", sans-serif;  color: #111;
   line-height: 1.6;
     letter-spacing: -0.01em;
 
