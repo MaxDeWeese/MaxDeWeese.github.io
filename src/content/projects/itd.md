@@ -1,5 +1,5 @@
 ---
-title: FTC Competition Robot | INTO THE DEEP (2024-2025)
+title: INTO THE DEEP Robot (2024-2025)
 description: Award-winning FTC competition robot.
 gallery: 
     - type: image

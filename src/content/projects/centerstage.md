@@ -1,5 +1,5 @@
 ---
-title: FTC Competition Robot | CENTERSTAGE (2023-2024)
+title: CENTERSTAGE Robot (2023-2024)
 description: Award-winning FTC competition robot.
 gallery: 
     - type: image

@@ -1,5 +1,5 @@
 ---
-title: Solenoid-Based Electromagnetic Launcher
+title: Solenoid Based Launcher
 description: Designed and built a solenoid-based electromagnetic launcher for AP Physics.
 gallery: 
     - type: youtube

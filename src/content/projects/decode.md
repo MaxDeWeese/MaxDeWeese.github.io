@@ -1,5 +1,5 @@
 ---
-title: FTC Competition Robot | DECODE (2025-2026)
+title: DECODE Robot (2025-2026)
 description: Award-winning FTC competition robot. 
 gallery: 
     - type: image

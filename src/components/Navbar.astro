@@ -38,60 +38,52 @@ import { Icon } from "astro-icon/components";
   justify-content: space-between;
   align-items: center;
 
-  padding: 18px 24px;
-  background: rgba(252, 252, 252, 0.8);
-  backdrop-filter: blur(10px);
-  border-bottom: 1px solid #eee;
+  padding: 10px 28px;
+
+  background: rgba(252, 252, 252, 0.75);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
 
   font-family: "Inter", sans-serif;
-  color: #111;
-  line-height: 1.6;
 }
 
 .left {
-  font-weight: 600;
+  font-size: 28get px;
+  font-weight: 500;
   text-decoration: none;
   color: #111;
-  font-size: 30px;
-  font-weight: 700;
-  letter-spacing: -0.03em;
+  letter-spacing: -0.04em;
+    transition: color 150ms ease;
 
+}
+.left:hover {
+  color: #666;
 }
 
 .right {
   display: flex;
-  gap: 18px;
+  align-items: center;
+  gap: 32px;
 }
 
 .right a {
   display: flex;
-  align-items: center;   /* vertically center icon and text */
-  gap: 3px;              /* spacing between icon and text */
+  align-items: center;
+  gap: 6px;
 
   text-decoration: none;
-  color: #555555;
-  font-size: 20px;
-  font-weight: 600;
+  color: #666;
+
+  font-size: 18px;
+  font-weight: 500;
   letter-spacing: -0.02em;
 
-
-  transition: color 0.2s ease;
+  transition: color 150ms ease;
 }
 
 .right a:hover {
-  color: #000;
-}
-@media (max-width: 768px) {
-  .right a span {
-    display: none;
-  }
-
-  .right {
-    gap: 12px;
-  }
-
-  .right a {
-    gap: 0;
-  }
+  color: #111;
 }
 </style>
