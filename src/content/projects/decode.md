@@ -43,7 +43,7 @@ gallery:
       caption: Overview of the pathing algorithm
 images:
     - /images/decode-bot-real.png
-year: "100"
+year: "102"
 ---
 
 ## Overview
